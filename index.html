@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><code id="code" >Tic-Tak-Toe</code></h1>
+        <div class="grid">
+            <div class="row">
+                <div onclick="handelClick(this)" id="0" class="col"></div>
+                <div onclick="handelClick(this)" id="1" class="col"></div>
+                <div onclick="handelClick(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handelClick(this)" id="3" class="col"></div>
+                <div onclick="handelClick(this)" id="4" class="col"></div>
+                <div onclick="handelClick(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handelClick(this)" id="6" class="col"></div>
+                <div onclick="handelClick(this)" id="7" class="col"></div>
+                <div onclick="handelClick(this)" id="8" class="col"></div>
+            </div>
+        </div>
+    </div>
+        <div class ="button-div">
+
+            <button id ="reset" onclick="refresh()">Reset</button>
+
+        </div>
+    
+</body>
+
+</html>
